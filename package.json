@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "patrik-nilsson-resume",
   "version": "1.0.0",
-  "repository": "https://github.com/patriknil90/minimal-react-boilerplate",
+  "repository": "https://github.com/patriknil90/resume-site",
   "author": "Patrik Nilsson",
   "license": "MIT",
   "scripts": {

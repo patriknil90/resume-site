@@ -44,6 +44,7 @@
         "ignoreTemplateLiterals": true
       }
     ],
+    "semi": ["error", "never"],
     "object-curly-spacing": 2,
     "camelcase": 1,
     "no-underscore-dangle": 0,
