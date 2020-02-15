@@ -23,6 +23,7 @@ module.exports = merge(base, {
         // css-loader
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+        include: /flexboxgrid/,
       },
       {
         // sass/scss loader to load sass-scss style files
