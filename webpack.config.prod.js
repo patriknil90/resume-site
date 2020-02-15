@@ -5,6 +5,7 @@ const TerserWeppackPlugin = require('terser-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const postcssSafeParser = require('postcss-safe-parser')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const PrerenderSPAPlugin = require('prerender-spa-plugin')
 const merge = require('webpack-merge')
 const base = require('./webpack.config.base')
 
@@ -101,6 +102,12 @@ module.exports = merge(base, {
         parser: postcssSafeParser,
         map: true,
       },
+    }),
+    new PrerenderSPAPlugin({
+      // Required - The path to the webpack-outputted app to prerender.
+      staticDir: path.join(__dirname, 'build'),
+      // Required - Routes to render.
+      routes: ['/'],
     }),
     new CleanWebpackPlugin(),
   ],
