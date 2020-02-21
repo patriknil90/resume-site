@@ -7,8 +7,9 @@ const Container = styled.div`
   height: 100vh;
   margin: 0;
   box-sizing: border-box;
-  background: #c2c6c0;
-  font-family: Roboto, sans-serif;
+  background: #001428;
+  color: #bababa;
+  font-family: Inconsolata, monospace;
 `
 
 const App = () => (

@@ -5,8 +5,8 @@ import portrait from './assets/images/patrik-nilsson.jpg'
 const Wrapper = styled.div`
   position: relative;
   height: 100%;
-  width: 300px;
-  background: #b4bab2;
+  width: 250px;
+  background: #001122;
 `
 
 const PortraitWrapper = styled.div`
@@ -27,21 +27,22 @@ const Section = styled.div`
   text-align: center;
 `
 
-const Name = styled.h1`
-  font-family: 'Handlee', Georgia, Times, 'Times New Roman', serif;
-  font-size: 30px;
-  font-weight: 100;
-  line-height: 1.3;
-  margin: 0 0 5px;
-  color: #373e34;
+const WorkerWrapper = styled.p`
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
 `
 
-const WorkTitle = styled.h2`
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.2;
-  margin: 0;
-  color: #525b4d;
+const Purple = styled.span`
+  color: #be69d3;
+`
+
+const BlueGrey = styled.span`
+  color: #786ae2;
+`
+
+const Orange = styled.span`
+  color: #d6ae68;
 `
 
 const Sidebar = () => {
@@ -51,8 +52,25 @@ const Sidebar = () => {
         <Portrait alt="Patrik Nilsson Front End developer" src={portrait} />
       </PortraitWrapper>
       <Section>
-        <Name>Patrik Nilsson</Name>
-        <WorkTitle>Front End developer</WorkTitle>
+        <WorkerWrapper>
+          <Purple>const</Purple>
+          <BlueGrey> developer</BlueGrey>
+          <Purple> = {'{'}</Purple>
+          <br />
+          <Purple>&nbsp;&nbsp;name:</Purple> &apos;
+          <Orange>Patrik Nilsson</Orange>&apos;<Purple>,</Purple>
+          <br />
+          <Purple>&nbsp;&nbsp;devType:</Purple> &apos;<Orange>Front End</Orange>
+          &apos;<Purple>,</Purple>
+          <br />
+          <Purple>&nbsp;&nbsp;specialization:</Purple> &apos;
+          <Orange>React</Orange>&apos;<Purple>,</Purple>
+          <br />
+          <Purple>&nbsp;&nbsp;homeTown:</Purple> &apos;
+          <Orange>Gothenburg, Swe</Orange>&apos;<Purple>,</Purple>
+          <br />
+          <Purple>{'}'}</Purple>
+        </WorkerWrapper>
       </Section>
     </Wrapper>
   )
