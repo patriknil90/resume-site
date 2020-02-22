@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import portrait from './assets/images/patrik-nilsson.jpg'
+import { SidebarSection, Indented, Purple, BlueGrey, Orange } from './styles'
 
 const Wrapper = styled.div`
   position: relative;
-  height: 100%;
+  min-height: 100%;
   width: 250px;
   background: #001122;
 `
@@ -20,30 +21,25 @@ const Portrait = styled.img`
   width: 100%;
   border-radius: 50%;
   box-shadow: 0px 0px 29px -13px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 `
 
-const Section = styled.div`
-  padding: 0 20px;
-  text-align: center;
-`
-
-const WorkerWrapper = styled.p`
-  font-size: 14px;
-  line-height: 1.4;
-  text-align: left;
-`
-
-const Purple = styled.span`
-  color: #be69d3;
-`
-
-const BlueGrey = styled.span`
-  color: #786ae2;
-`
-
-const Orange = styled.span`
-  color: #d6ae68;
-`
+const languages = ['Javascript', 'Typescript', 'HTML', 'CSS / SASS / LESS']
+const skills = [
+  'Redux',
+  'Jest',
+  'Enzyme',
+  'Axios',
+  'Jira',
+  'Confluence',
+  'Git',
+  'Gerrit',
+  'Azure Devops',
+  'Scrum',
+  'SAFe',
+  'TDD',
+  'CI/CD',
+]
 
 const Sidebar = () => {
   return (
@@ -51,27 +47,53 @@ const Sidebar = () => {
       <PortraitWrapper>
         <Portrait alt="Patrik Nilsson Front End developer" src={portrait} />
       </PortraitWrapper>
-      <Section>
-        <WorkerWrapper>
-          <Purple>const</Purple>
-          <BlueGrey> developer</BlueGrey>
-          <Purple> = {'{'}</Purple>
-          <br />
-          <Purple>&nbsp;&nbsp;name:</Purple> &apos;
-          <Orange>Patrik Nilsson</Orange>&apos;<Purple>,</Purple>
-          <br />
-          <Purple>&nbsp;&nbsp;devType:</Purple> &apos;<Orange>Front End</Orange>
-          &apos;<Purple>,</Purple>
-          <br />
-          <Purple>&nbsp;&nbsp;specialization:</Purple> &apos;
-          <Orange>React</Orange>&apos;<Purple>,</Purple>
-          <br />
-          <Purple>&nbsp;&nbsp;homeTown:</Purple> &apos;
-          <Orange>Gothenburg, Swe</Orange>&apos;<Purple>,</Purple>
-          <br />
-          <Purple>{'}'}</Purple>
-        </WorkerWrapper>
-      </Section>
+      <SidebarSection>
+        <Purple>const</Purple>
+        <BlueGrey> developer</BlueGrey>
+        <Purple> = {'{'}</Purple>
+        <br />
+        <Purple>&nbsp;&nbsp;name:</Purple> &apos;
+        <Orange>Patrik Nilsson</Orange>&apos;<Purple>,</Purple>
+        <br />
+        <Purple>&nbsp;&nbsp;devType:</Purple> &apos;<Orange>Front End</Orange>
+        &apos;<Purple>,</Purple>
+        <br />
+        <Purple>&nbsp;&nbsp;specialization:</Purple> &apos;
+        <Orange>React</Orange>&apos;<Purple>,</Purple>
+        <br />
+        <Purple>&nbsp;&nbsp;homeTown:</Purple> &apos;
+        <Orange>Gothenburg, Swe</Orange>&apos;<Purple>,</Purple>
+        <br />
+        <Purple>{'};'}</Purple>
+      </SidebarSection>
+      <SidebarSection>
+        <Purple>const</Purple>
+        <BlueGrey> languages</BlueGrey>
+        <Purple> = </Purple>
+        {'['}
+        <Indented>
+          {languages.map(language => (
+            <Fragment key={language}>
+              &apos;<Orange>{language}</Orange>&apos;,{' '}
+            </Fragment>
+          ))}
+        </Indented>
+        {'];'}
+      </SidebarSection>
+      <SidebarSection>
+        <Purple>const</Purple>
+        <BlueGrey> skills</BlueGrey>
+        <Purple> = </Purple>
+        {'['}
+        <Indented>
+          {skills.map(skill => (
+            <Fragment key={skill}>
+              &apos;<Orange>{skill}</Orange>&apos;,{' '}
+            </Fragment>
+          ))}
+        </Indented>
+        {'];'}
+      </SidebarSection>
     </Wrapper>
   )
 }

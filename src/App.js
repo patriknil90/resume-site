@@ -5,6 +5,7 @@ import Sidebar from './Sidebar'
 const Container = styled.div`
   width: 100%;
   height: 100vh;
+  overflow-y: auto;
   margin: 0;
   box-sizing: border-box;
   background: #001428;
