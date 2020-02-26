@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Sidebar from './components/Sidebar'
-import Main from './Main'
 
-const AppContainer = styled.div`
+const Container = styled.div`
   width: 100%;
   height: 100vh;
   overflow-y: auto;
@@ -12,15 +11,12 @@ const AppContainer = styled.div`
   background: #001428;
   color: #bababa;
   font-family: Inconsolata, monospace;
-  display: flex;
-  justify-content: flex-start;
 `
 
 const App = () => (
-  <AppContainer>
+  <Container>
     <Sidebar />
-    <Main />
-  </AppContainer>
+  </Container>
 )
 
 export default App
