@@ -10,6 +10,7 @@
       "alias": {
         "assets": "./src/assets",
         "components": "./src/components",
+        "containers": "./src/containers",
         "shared": "./src/shared"
       }
     }]
