@@ -21,18 +21,30 @@ export const Title = styled.h2`
   }
 `
 
+const COLORS = {
+  purple: '#be69d3',
+  blueGrey: '#786ae2',
+  orange: '#d6ae68',
+}
+
+export const Link = styled.a`
+  text-decoration: underline;
+  cursor: pointer;
+  color: ${COLORS.purple};
+`
+
 export const Indented = styled.div`
   padding-left: 15px;
 `
 
 export const Purple = styled.span`
-  color: #be69d3;
+  color: ${COLORS.purple};
 `
 
 export const BlueGrey = styled.span`
-  color: #786ae2;
+  color: ${COLORS.blueGrey};
 `
 
 export const Orange = styled.span`
-  color: #d6ae68;
+  color: ${COLORS.orange};
 `
