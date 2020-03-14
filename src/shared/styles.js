@@ -101,10 +101,10 @@ export const Title = styled.h2`
   margin-bottom: 20px;
   color: ${COLORS.textLight};
   font-weight: 100;
-  font-size: ${props => (props.big ? '26px' : '20px')};
+  font-size: ${props => (props.big ? '28px' : '24px')};
 
   @media (min-width: 767px) {
-    font-size: ${props => (props.big ? '30px' : '26px')};
+    font-size: ${props => (props.big ? '32px' : '26px')};
   }
 `
 
