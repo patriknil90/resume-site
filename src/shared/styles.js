@@ -8,12 +8,6 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  /* Remove default padding */
-  ul[class],
-  ol[class] {
-    padding: 0;
-  }
-
   /* Remove default margin */
   body,
   h1,
@@ -38,12 +32,6 @@ export const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-  }
-
-  /* Remove list styles on ul, ol elements with a class attribute */
-  ul[class],
-  ol[class] {
-    list-style: none;
   }
 
   /* A elements that don't have a class get default styles */
@@ -98,7 +86,7 @@ const COLORS = {
 
 export const Title = styled.h2`
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: ${COLORS.textLight};
   font-weight: 100;
   font-size: ${props => (props.big ? '28px' : '24px')};
