@@ -7,11 +7,17 @@ import Presentation from 'containers/Presentation'
 const MainContainer = styled.div`
   padding: 0;
   margin: 0;
-  flex-grow: 1;
+
+  @media (min-width: ${props => props.flexBreakPoint}) {
+    flex-direction: row;
+    height: 100%;
+    overflow-y: auto;
+    flex-grow: 1;
+  }
 `
 
-const Main = () => (
-  <MainContainer>
+const Main = ({ flexBreakPoint }) => (
+  <MainContainer flexBreakPoint={flexBreakPoint}>
     <Presentation />
     <WorkExperience />
     <Education />

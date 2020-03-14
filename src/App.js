@@ -8,8 +8,8 @@ const flexBreakPoint = '600px'
 const AppContainer = styled.div`
   width: 100%;
   height: 100vh;
-  overflow-y: auto;
   margin: 0;
+  overflow-y: auto;
   box-sizing: border-box;
   background: #001428;
   color: #bababa;
@@ -19,13 +19,14 @@ const AppContainer = styled.div`
 
   @media (min-width: ${flexBreakPoint}) {
     flex-direction: row;
+    overflow-y: hidden;
   }
 `
 
 const App = () => (
   <AppContainer>
     <Sidebar flexBreakPoint={flexBreakPoint} />
-    <Main />
+    <Main flexBreakPoint={flexBreakPoint} />
   </AppContainer>
 )
 
