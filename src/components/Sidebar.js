@@ -57,7 +57,7 @@ const skills = [
 const DeveloperSection = () => (
   <SidebarSection>
     <Purple>const</Purple>
-    <BlueGrey> developer</BlueGrey>
+    <BlueGrey> about</BlueGrey>
     <Purple> = {'{'}</Purple>
     <br />
     <Purple>&nbsp;&nbsp;name:</Purple> &apos;
