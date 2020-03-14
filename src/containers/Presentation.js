@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Title, Link } from 'shared/styles'
 
 const Presentation = () => (
-  <Container>
+  <Container secondary>
     <Title big>Hello, my name is Patrik!</Title>
     <p>
       My name is Patrik and I am a Frontend developer who have mainly worked

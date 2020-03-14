@@ -2,12 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin: auto;
-  padding: 15px;
+  padding: 30px;
   box-sizing: border-box;
   background: ${props => (props.secondary ? '#001b36' : 'none')};
-  @media (min-width: 1200px) {
-    padding: 30px;
-  }
 `
 
 export const Title = styled.h2`

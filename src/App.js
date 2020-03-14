@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import Sidebar from 'components/Sidebar'
 import Main from './Main'
 
+const flexBreakPoint = '600px'
+
 const AppContainer = styled.div`
   width: 100%;
   height: 100vh;
@@ -13,11 +15,16 @@ const AppContainer = styled.div`
   color: #bababa;
   font-family: Inconsolata, monospace;
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: ${flexBreakPoint}) {
+    flex-direction: row;
+  }
 `
 
 const App = () => (
   <AppContainer>
-    <Sidebar />
+    <Sidebar flexBreakPoint={flexBreakPoint} />
     <Main />
   </AppContainer>
 )

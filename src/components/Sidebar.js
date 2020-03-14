@@ -5,9 +5,14 @@ import { Indented, Purple, BlueGrey, Orange } from 'shared/styles'
 
 const Wrapper = styled.div`
   position: relative;
-  min-height: 100%;
-  width: 250px;
   background: #001122;
+  width: 100%;
+
+  @media (min-width: ${props => props.flexBreakPoint}) {
+    min-height: 100%;
+    width: 250px;
+    min-width: 250px;
+  }
 `
 
 const SidebarSection = styled.div`
@@ -105,8 +110,8 @@ const SkillsSection = () => (
   </SidebarSection>
 )
 
-const Sidebar = () => (
-  <Wrapper>
+const Sidebar = ({ flexBreakPoint }) => (
+  <Wrapper flexBreakPoint={flexBreakPoint}>
     <PortraitWrapper>
       <Portrait alt="Patrik Nilsson Front End developer" src={portrait} />
     </PortraitWrapper>

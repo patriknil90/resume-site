@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Title } from 'shared/styles'
 
 const WorkExperience = () => (
-  <Container secondary>
+  <Container>
     <Title>Work Experience</Title>
   </Container>
 )
