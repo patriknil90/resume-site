@@ -7,7 +7,6 @@ import {
   Period,
   Paragraph,
   ExperienceWrapper,
-  Link,
 } from 'shared/styles'
 import styled from 'styled-components'
 

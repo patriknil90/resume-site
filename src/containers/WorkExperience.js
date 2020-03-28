@@ -12,6 +12,18 @@ import {
 
 const experiences = [
   {
+    workTitle: 'Front End developer',
+    employer: {
+      company: 'Icomera AB',
+      link: 'https://www.icomera.com/',
+    },
+    from: '2020-01',
+    to: 'Present',
+    presentation: [
+      "Working in a team that's responsible for the development of a number of applications mainly used for big data and real time data analysis within the public transport industry. Icomera is the global leader in delivering mobile connevtivity solutions for trains and buses and these applications are essential for both administrators at the customers and for hardware developers in-house at Icomera.",
+    ],
+  },
+  {
     workTitle: 'Front End developer consultant',
     employer: {
       company: 'Evry Sweden AB (A.K.A TietoEvry)',
@@ -20,7 +32,7 @@ const experiences = [
     from: '2018-02',
     to: '2020-01',
     presentation: [
-      'At Evry I have been assigned to a variety of projects and software management commitments, mainly as a Front End developer at global organizations within the manufacturing industry. As a consultant, my main goal is to bring value within my area of expertise (SPA development) and developing my ability to think high level of a project, product, an organization and end users. I have also focused on staying on top of the latest trends within web development and broadening my knowledge within other areas like toolchain and the implementation of CI/CD Pipelines.',
+      "At Evry I have been assigned to a variety of projects and software management commitments, mainly as a Front End developer at large global organizations. The majority of the time, however, I'd work with a customer developing a Data management solution within the autonomous vehicles industry.",
     ],
   },
   {
@@ -30,7 +42,7 @@ const experiences = [
     to: '2018-02',
     presentation: [
       'The work consisted primarily of transforming a large-scale web-based business and project management system from a traditional MVC structure to a Single Page Application built with Angular (2+) and TypeScript. The application consists of a GUI, of which I had the responsibility to develop, and a GraphQL API that was consumed by the GUI.',
-      'Vendium was at the time a startup with 3-5 employees and operational partners / co-owners. This required a high degree of responsibility, structure and transparency to help developing the product in the right direction efficiently.',
+      'Vendium was at the time a startup with only a handful employees. This required a high degree of responsibility, structure and transparency to help developing the product efficiently.',
     ],
   },
   {

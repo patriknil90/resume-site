@@ -5,21 +5,19 @@ const Presentation = () => (
   <Container secondary>
     <Title big>Hello, my name is Patrik!</Title>
     <Paragraph>
-      My name is Patrik and I am a Frontend developer who have mainly worked
-      with enterprise and B2B applications. As a programmer I want to get deeper
-      skills in the field of frontend development and slowly take steps in other
-      areas, such as serverless functions and management of data in the cloud.
+      I am a techy man in his thirties that likes to learn, regularly works out
+      and thinks the Stock market is interesting. I also like to code! I have
+      mainly worked with developing enterprise and B2B applications. From this
+      I&apos;ve gained specialized knowledge and experience in programming
+      Javascript. With an educational background in Systems Science, and as a
+      former independent developer, I also try to take a hollistic approach
+      trying to find solutions that truly bring business value.
     </Paragraph>
     <Paragraph>
-      In a team I want to bring a mix of stability, effectiveness and curiosity.
-      That is, I want to help my team deliver good quality code, try to identify
-      and cut out things that holds the team back or do not help in delivering
-      value and also advocate to try new things.
-    </Paragraph>
-    <Paragraph>
-      In my spare time I like to work out, take walks and eat good food. I also
-      listen to a lot of different podcasts and take a huge interest in the
-      stock market.
+      I am currently very happy with my work situation, getting the opportunity
+      to develop big data and real time data analysis tools on a day to day
+      basis. However, I am always open to getting to know new exiting people
+      within the tech sector.
     </Paragraph>
     <Paragraph>
       If you would like to connect with me, don&apos;t hesitate to add me on{' '}
