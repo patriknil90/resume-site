@@ -7,10 +7,10 @@ const Presentation = () => (
     <Paragraph>
       And I build web applications! I have mainly worked with developing
       enterprise and B2B applications. From this I&apos;ve gained specialized
-      knowledge and experience in JavaScript programming, Data management
-      platforms, data analytics systems and development of Single Page
+      knowledge and experience in JavaScript programming, Data Management
+      platforms, Data Analytics systems and development of Single Page
       Applications. With an educational background in Systems Science, and as a
-      former independent developer, I have also learned to take a holistic
+      former independent developer, I&apos;ve also learned to take a holistic
       approach trying to find solutions that truly bring business value.
     </Paragraph>
     <Paragraph>
