@@ -20,7 +20,7 @@ const experiences = [
     from: '2020-01',
     to: 'Present',
     presentation: [
-      "Working in a team that's responsible for the development of a number of applications mainly used for big data and real time data analysis within the public transport industry. Icomera is the global leader in delivering mobile connevtivity solutions for trains and buses and these applications are essential for both administrators at the customers and for hardware developers in-house at Icomera.",
+      "Working in a team that's responsible for the development of a number of Single Page applications mainly used for big data and real time data analysis within the public transport industry. The applications are built with React. Icomera is the global leader in delivering mobile connevtivity solutions for trains and buses and these applications are essential for both administrators at the customers and for hardware developers in-house at Icomera.",
     ],
   },
   {
@@ -32,7 +32,7 @@ const experiences = [
     from: '2018-02',
     to: '2020-01',
     presentation: [
-      "At Evry I have been assigned to a variety of projects and software management commitments, mainly as a Front End developer at large global organizations. The majority of the time, however, I'd work with a customer developing a Data management solution within the autonomous vehicles industry.",
+      'At Evry I have been assigned to a variety of projects and software management commitments, mainly as a Front End developer. For approximately 18 months I consulted a Global car manufacturing company, developing a Data management solution within their autonomous vehicles segment. I worked in a cross functional team that developed and maintained both a REST API and a React application (whit my focus on the latter).',
     ],
   },
   {
