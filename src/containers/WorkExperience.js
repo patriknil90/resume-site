@@ -20,7 +20,7 @@ const experiences = [
     from: '2020-01',
     to: 'Present',
     presentation: [
-      "Working in a team that's responsible for the development of a number of Single Page applications mainly used for big data and real time data analysis within the public transport industry. The applications are built with React. Icomera is the global leader in delivering mobile connevtivity solutions for trains and buses and these applications are essential for both administrators at the customers and for hardware developers in-house at Icomera.",
+      "Working in a team that's responsible for the development of a number of Single Page applications built with React, mainly used for big data and real time data analysis. Icomera is the global leader in delivering mobile connectivity solutions for trains and buses. These applications are essential for both administrators at the customers and for hardware developers in-house at Icomera.",
     ],
   },
   {
@@ -32,7 +32,7 @@ const experiences = [
     from: '2018-02',
     to: '2020-01',
     presentation: [
-      'At Evry I have been assigned to a variety of projects and software management commitments, mainly as a Front End developer. For approximately 18 months I consulted a Global car manufacturing company, developing a Data management solution within their autonomous vehicles segment. I worked in a cross functional team that developed and maintained both a REST API and a React application (whit my focus on the latter).',
+      'At Evry I have been assigned to a variety of projects and software management commitments, mainly as a Front End developer. For approximately 18 months I consulted a Global car manufacturing company, developing a Data management solution within their autonomous vehicle segment. I worked in a cross functional team that developed and maintained both a REST API and a React application (whit my focus on the latter).',
     ],
   },
   {
@@ -51,7 +51,7 @@ const experiences = [
     from: '2014-05',
     to: '2016-12',
     presentation: [
-      'Working as an independent consultant for small businesses, helping them create informational websites about their company, products and services. The customers were both B2B and B2C oriented businesses operating in different business areas such as restaurant, software development, consulting etcetera. As I ran this as my own company, I also learned a lot about time estimating jobs and tasks, negotiaton, accounting etc.',
+      "Working as an independent consultant for small businesses, helping them create informational websites about their company, products and services. The customers were both B2B and B2C oriented businesses operating in different business areas such as restaurant, software development and consulting. As I ran this as my own company, I've also learned a lot about time estimating jobs and tasks, negotiatons, accounting etc.",
     ],
   },
 ]

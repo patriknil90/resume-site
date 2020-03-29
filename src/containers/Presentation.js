@@ -10,7 +10,7 @@ const Presentation = () => (
       knowledge and experience in JavaScript programming, Data management
       platforms, data analytics systems and development of Single Page
       Applications. With an educational background in Systems Science, and as a
-      former independent developer, I have also learned to take a hollistic
+      former independent developer, I have also learned to take a holistic
       approach trying to find solutions that truly bring business value.
     </Paragraph>
     <Paragraph>
