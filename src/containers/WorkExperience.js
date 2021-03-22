@@ -20,19 +20,19 @@ const experiences = [
     from: '2020-01',
     to: 'Present',
     presentation: [
-      "Working in a team that's responsible for the development of a number of Single Page applications built with React, mainly used for big data and real time data analysis. Icomera is the global leader in delivering mobile connectivity solutions for trains and buses. These applications are essential for both administrators at the customers and for hardware developers in-house at Icomera.",
+      "Working in a team that's responsible for the development of a number of Single Page applications built with React, mainly used for data analysis, configuration and administration. Icomera is the global leader in delivering mobile connectivity solutions for trains and buses. These applications are essential for both administrators that works at the customer and for the in-house personel at Icomera.",
     ],
   },
   {
     workTitle: 'Front End developer consultant',
     employer: {
-      company: 'Evry Sweden AB (A.K.A TietoEvry)',
+      company: 'TietoEvry',
       link: 'https://www.tietoevry.com/',
     },
     from: '2018-02',
     to: '2020-01',
     presentation: [
-      'At Evry I have been assigned to a variety of projects and software management commitments, mainly as a Front End developer. For approximately 18 months I consulted a Global car manufacturing company, developing a Data management solution within their autonomous vehicle segment. I worked in a cross functional team that developed and maintained both a REST API and a React application (whit my focus on the latter).',
+      'At TietoEvry I where assigned to a variety of projects and software management commitments, mainly as a Front End developer. For approximately 18 months I consulted a Global car manufacturing company, developing a Data management solution within their autonomous vehicle segment. I worked in a cross functional team that developed and maintained both a REST API and a React application, with my focus on the latter.',
     ],
   },
   {
